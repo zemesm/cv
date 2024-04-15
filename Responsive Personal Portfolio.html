@@ -12,11 +12,10 @@
             </div>
             <div class="navLink">
                 <ul>
-                    <li><a href="#">Domov</a></li>
+                    <!-- <li><a href="#">Domov</a></li> -->
                     <li><a href="G:\Môj disk\CV\cv\cv.html">Životopis</a></li>
-                    <li><a href="G:\Môj disk\CV">Projekty</a></li>
+                    <li><a href="https://github.com/zemesm?tab=repositories">Projekty</a></li>
                     <li><a href="G:\Môj disk\CV\fit\index-en.html">Fitness webstránka</a></li>
-                    <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -24,7 +23,8 @@
         <section class="sec">
             <header>
                 <div class="toggle"></div>
-                <a href="#" class="btn">Hire Me</a>
+                <!-- <a href="#" class="btn">Kontaktujte ma</a> -->
+                <a href="mailto:martinzemes5.0@gmail.com?subject=CV" class="btn">Kontaktujte ma</a>
             </header>
 
             <div class="imgBx">
@@ -36,7 +36,7 @@
                     sa viete dostať na moju fitness stránku.</p>
                 <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisocong elit. Vero iste laboriosam iusto sapiente voluptatum
                    a, incidunt culpa quae.</p> -->
-                <a href="G:\Môj disk\CV\cv\cv.html" class="btn">pozrieť životopis</a>
+                <a href="G:\Môj disk\CV\cv\cv.html" class="btn">Pozrieť životopis</a>
             </div>
 
             <footer>
@@ -54,11 +54,17 @@
             let menuToggle = document.querySelector('.toggle');
             let navigation = document.querySelector('.navigation');
             let sec = document.querySelector('.sec');
+            // let home = docement.querySelector('.home');
             menuToggle.onclick = function(){
                 menuToggle.classList.toggle('active')
                 navigation.classList.toggle('active')
                 sec.classList.toggle('active')
             }
+            // home.onclick = function(){
+            //     menuToggle.classList.toggle('active')
+            //     navigation.classList.toggle('active')
+            //     sec.classList.toggle('active')
+            // }
         </script>
 
     </body>
